@@ -9,7 +9,8 @@ const cursosRoutes: Routes = [
   { path: '', component: StoreComponent },
   { path: 'new', component: FormComponent },
   { path: 'edit/:id', component: FormComponent },
-  { path: 'detail/:id', component: DetailComponent }
+  { path: 'detail/:id', component: DetailComponent },
+
 ];
 
 @NgModule({
